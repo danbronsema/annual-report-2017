@@ -1,3 +1,6 @@
+@media screen and (min-width: 1199px) {
+  .rwd-line {
+    display: inline-block; } }
 body {
   position: relative;
   font-size: 18px;
@@ -50,15 +53,17 @@ h3 {
   color: #ec1c24;
   font-weight: 300;
   margin-top: 25px;
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Muli', sans-serif;
+  font-size: 28px; }
 
 h4, h5 {
   font-family: 'Muli', sans-serif;
   font-weight: 300;
   color: #03b0b6;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
-  line-height: 1.4; }
+  line-height: 1.4;
+  color: inherit; }
 
 h4 a {
   color: #03b0b6; }
@@ -480,9 +485,26 @@ img.financial-graph {
   background: #5f5f5f;
   color: #ffffff; }
 
-.td-light-gray {
-  background: #ccc;
+.td-light {
+  background: #dbdcdc;
   font-weight: bold; }
+
+.brown2 p {
+  font-size: 14px; }
+
+.td-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Muli', sans-serif; }
+
+.td-dark {
+  background: #b1b1b1; }
+
+.td-dark p, .td-bold p {
+  font-weight: bold; }
+
+.td-bottom {
+  border-top: 3px solid #b1b1b1 !important; }
 
 .td-blue, .Blue-header-cell, .CellOverride-10, .Blue-total-cell {
   background: #0058a9;
